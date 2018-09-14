@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dilley Dove Hunts</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Oswald|Roboto+Slab|Rubik|Work+Sans" rel="stylesheet">
+  </head>
+
+  <body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-left" href="/"><%=image_tag("dilleydivelogo_sm.png")%></a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a href="/">Home</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#/hunts">Hunts
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="/white_tail_high">White Tail Hunts - High Fence</a></li>
+          <li><a href="/white_tail_low">White Tail Hunts - Low Fence</a></li>
+          <li><a href="/turkey">Turkey Hunts</a></li>
+          <li><a href="/dove">Dove Hunts</a></li>
+          <li><a href="/what_to_bring">What To Bring</a></li>
+        </ul>
+      </li>
+      <li><a href="/about">About Us</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+
+  
+    <%= yield %>
+ 
+    <div class="footer">
+  <p>
+    Book Your Hunt Now! (830) 965-5260 | <a href="mailto:clayton@dilleydove.com">clayton@dilleydove.com</a>
+  </p>
+</div>
+<script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiPnivcQDpT-60HFql2REBjhgj19eg17s">
+ </script>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+// This is a manifest file that'll be compiled into application.js, which will include all the files
+// listed below.
+//
+// Any JavaScript/Coffee file within this directory, lib/assets/javascripts, or any plugin's
+// vendor/assets/javascripts directory can be referenced here using a relative path.
+//
+// It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
+// compiled file. JavaScript code in this file should be added after the last require_* statement.
+//
+// Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
+// about supported directives.
+//
+//= require jquery
+//= require jquery_ujs
+//= require bootstrap-sprockets
+//= require rails-ujs
+//= require turbolinks
+//= require_tree .
+
+$(document).ready(function (){
+
+	var myCoords = new google.maps.LatLng(28.669541, -99.169141);
+
+    function initialize() {
+      var mapOptions = {
+      center: myCoords,
+      zoom: 16,
+      scrollwheel: false
+      };
+        
+      var map = new google.maps.Map(document.getElementById('map-canvas'),
+                mapOptions);    
+    
+    var image = "<%= asset_path 'doveicon.svg' %>"
+    var marker = new google.maps.Marker({
+	  position: myCoords,
+	  map: map,
+	  icon: image,
+	  label: { color: '#eab400', fontWeight: 'bold', fontSize: '14px', text: 'Dilley Dove Hunts' }
+
+
+});
+
+
+
+    }
+      
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+});

@@ -1,0 +1,141 @@
+// Place all the styles related to the Hunts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+*{
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+}
+
+.highFence{
+	text-align: center;
+	text-decoration: underline;
+}
+
+.highFenceImage{
+	height: auto;
+	width: auto;
+	max-height: 50px;
+	max-width: 50px;
+}
+
+.highFenceText{
+	margin-top: 10px;
+	font-weight: bold;
+	font-family: 'Merriweather', serif;
+}
+
+.underlineThis{
+	text-decoration: underline;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 36px;
+}
+
+.underlineThisHighFence{
+	text-decoration: underline;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 36px;
+}
+
+.highFenceAdditional{
+	text-align: center;
+	font-weight: bold;
+}
+
+.highFencePrice{
+	
+}
+
+.lowFenceImage{
+	height: auto;
+	width: auto;
+	max-height: 50px;
+	max-width: 50px;
+	margin-top: 20px;
+}
+
+.lowFenceAdditional{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.lowFenceText{
+	margin-top: 75px;
+}
+
+.lowFenceNeedMargin{
+	margin-top: 100px;
+}
+
+.lowFence{
+	text-align: center;
+	text-decoration: underline;
+}
+
+.lowFenceUnderlineHeaders{
+	text-decoration: underline;
+}
+
+.turkeyHuntHead{
+	text-align: center;
+	text-decoration: underline;
+}
+
+.turkeyText{
+	margin-top: 10px;
+	font-weight: bold;
+
+}
+
+.turkeyPrice{
+	font-weight: bold;
+}
+
+.turkeyImage{
+	height: auto;
+	width: auto;
+	max-height: 50px;
+	max-width: 50px;
+	margin-bottom: 50px;
+}
+
+.doveHuntHead{
+	text-align: center;
+	text-decoration: underline;
+}
+
+.doveImage{
+	height: auto;
+	width: auto;
+	max-height: 50px;
+	max-width: 50px;
+}
+
+.doveText{
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.doveAdditional{
+	font-weight: bold;
+}
+
+.bookButton{
+	text-align: center;
+	margin-top: 36px;
+}
+
+.whatToBringHead{
+	text-align: center;
+	text-decoration: underline;
+}
+
+.whatToBringList{
+	padding-right: 150px;
+	padding-left: 150px;
+}
+
+.whatToBringUnderline{
+	text-decoration: underline;
+}
