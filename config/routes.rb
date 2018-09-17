@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'turkeyhunts' => 'turkey#turkeyhunts'
+  get 'turkeyhunts2' => 'turkey#turkeyhunts'
 
   get 'white_tail_low' => 'hunts#white_tail_low'
 
