@@ -1,0 +1,2 @@
+module TurkeyHelper
+end

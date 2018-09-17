@@ -1,0 +1,43 @@
+// Place all the styles related to the Turkey controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+*{
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+}
+
+.underlineThis{
+	text-decoration: underline;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 36px;
+}
+
+.turkeyHuntHead{
+	text-align: center;
+	text-decoration: underline;
+}
+
+.turkeyText{
+	margin-top: 10px;
+	font-weight: bold;
+
+}
+
+.turkeyPrice{
+	font-weight: bold;
+}
+
+.turkeyImage{
+	height: auto;
+	width: auto;
+	max-height: 50px;
+	max-width: 50px;
+	margin-bottom: 50px;
+}
+
+.bookButton{
+	text-align: center;
+	margin-top: 36px;
+}
