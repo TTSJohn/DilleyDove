@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   get 'white_tail_high' => 'hunts#white_tail_high'
 
-  get 'turkey' => 'hunts#turkey'
+  get 'turkeyhunts' => 'hunts#turkey'
 
   get 'dove' => 'hunts#dove'
 
