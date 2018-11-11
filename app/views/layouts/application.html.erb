@@ -12,7 +12,7 @@
 
   <body>
 
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse-fluid">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-left" href="/"><%=image_tag("dilleydivelogo_sm.png")%></a>
@@ -42,9 +42,14 @@
     <%= yield %>
  
     <div class="footer">
+      <p class="socialMediaIcons">
+  <a target="_blank" href="http://www.facebook.com/"><%= image_tag("fb_icon.png") %></a>         <a target="_blank" href="http://www.twitter.com/"><%= image_tag("twitter_icon.png") %> </a>         <a target="_blank" href="http://www.instagram.com/"><%= image_tag("ig_icon.png") %></a>
+</p>
+<p>  </p>
   <p>
     Book Your Hunt Now! (830) 965-5260 | <a href="mailto:clayton@dilleydove.com">clayton@dilleydove.com</a>
   </p>
+  <br>
 </div>
 <script type="text/javascript"
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiPnivcQDpT-60HFql2REBjhgj19eg17s">
