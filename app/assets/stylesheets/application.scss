@@ -32,9 +32,15 @@
 	margin-top: 16px;
 }
 
+.dropdown-menu{
+    color: black;
+    text-shadow: 2px 2px white;
+}
+
 body{
 	background-image: image_url("WoodPlanks.jpg");
 	color: rgb(234,180,0);
+    text-shadow: 2px 2px black;
     display: flex;
     flex-direction: column;
     min-height: 100vh;

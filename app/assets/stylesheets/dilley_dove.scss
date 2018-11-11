@@ -6,10 +6,11 @@
 	text-align: center;
 }
 
-.jumbotron {
-background-image: image_url("dd_index_jumbo.JPG");
-background-size: cover;
-height: 250px;
+
+.business_card{
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
 }
 
 .homePageText{
@@ -19,6 +20,7 @@ font-size: 16px;
 font-family: 'Merriweather', serif;
 font-weight: bold;
 text-align: center;
+padding-bottom: 20px;
 }
 
 .homePageBook{
