@@ -33,14 +33,19 @@
     padding-top: 15px;
 }
 
-.fontNav{
-    color: black;
-}
 
 .socialMediaIcons{
-    
+
 }
 
+a {
+    color: rgb(234,180,0);  
+}
+
+
+.selected {
+     color: rgb(234,180,0);   
+}
 
 .navbar-right{
 	margin-top: 16px;

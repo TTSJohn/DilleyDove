@@ -16,6 +16,14 @@
 //= require rails-ujs
 //= require_tree .
 
+$(document).ready(function(){
+    $('#links a').click(function(){
+        $(this).addClass('selected');
+        $(this).siblings().removeClass('selected');
+    });
+})
+
+
 $(document).ready(function (){
 
 	var myCoords = new google.maps.LatLng(28.669541, -99.169141);
