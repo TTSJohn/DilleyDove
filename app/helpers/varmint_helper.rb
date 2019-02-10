@@ -1,0 +1,2 @@
+module VarmintHelper
+end

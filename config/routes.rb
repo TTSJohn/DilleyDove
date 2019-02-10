@@ -1,7 +1,13 @@
 Rails.application.routes.draw do
+  get 'lodges' => 'lodgesanddocs#lodges'
+
+  get 'documents' => 'lodgesanddocs#documents'
+
+  get 'varmint' => 'varmint#varminthunts'
+
   get 'turkeyhunts2' => 'turkey#turkeyhunts'
 
-  get 'white_tail_low' => 'hunts#white_tail_low'
+  get 'low_fence_farm_hunts' => 'hunts#white_tail_low'
 
   get 'white_tail_high' => 'hunts#white_tail_high'
 
@@ -14,8 +20,6 @@ Rails.application.routes.draw do
   root 'dilley_dove#index'
 
   get 'hunts' => 'dilley_dove#hunts'
-
-  get 'about' => 'dilley_dove#about'
 
   get 'contact' => 'dilley_dove#contact'
 
